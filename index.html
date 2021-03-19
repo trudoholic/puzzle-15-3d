@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang='en'>
+<html>
+<head>
+	<title>Azbooka3D v.0</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<div class="field">
+
+  <div class="start-field">
+    <div class="center-field">
+	
+      <h1 class = 'header'>Azbooka3D</h1>
+      <div class="menu-block">
+        <h4 class = 'hDiff'>Choose difficulty:</h4>
+        <br>
+        <div class = 'diff'>
+          <form class = 'diff-form'>
+            <input id = 'easy' type="radio" name="a" value="easy" checked>
+            <label for="easy">easy</label>
+            <br>
+            <input id = 'hard' type="radio" name="a" value="crasy">
+            <label for="hard">hard</label>
+          </form>
+        </div>
+        <br>
+        <h4 class = 'hDiff'>Choose color:</h4>
+        <br>
+        <div class = 'diff'>
+          <form class = 'diff-form2'>
+            <input id = 'wood' type="radio" name="a" value="wood" checked>
+            <label for="wood">wood</label>
+            <br>
+            <input id = 'bone' type="radio" name="a" value="bone">
+            <label for="bone">bone</label>
+          </form>
+        </div>
+        <br>
+        <h2 class = 'start-btn'>START</h2>
+      </div><!-- menu-block -->
+	  
+    </div><!-- center-field -->
+  </div><!-- start-field -->
+  
+  <div class="end-field">
+    <div class="center-field">
+	
+      <h1 class = 'header'>Azbooka3D</h1>
+      <div class="menu-block">
+        <h2 class = 'win'>YOU WIN!</h2>
+        <div class = 'diff'>
+          <div class="times">
+            <div class="win-time"><span>current time</span><span class = 'name-diff'>(easy): </span><span class = 'num'></span></div>
+            <h4>You best times</h4>
+            <div class="best-times">
+              
+              <div class="easy-time"><span>easy </span><span class="num"></span></div>
+              <div class="hard-time"><span>hard </span><span class="num"></span></div>
+            </div>
+          </div>
+          
+          <h4 class = 'hDiff'>Choose difficulty:</h4>
+          <form class = 'diff-form'>
+            <input id = 'easy1' type="radio" name="a" value="easy" checked>
+            <label for="easy1">easy</label>
+            <br>
+            <input id = 'hard1' type="radio" name="a" value="crasy">
+            <label for="hard1">hard</label>
+          </form>
+
+          <h4 class = 'hDiff'>Choose color:</h4>
+          <form class = 'diff-form2'>
+            <input id = 'wood1' type="radio" name="a" value="wood" checked>
+            <label for="wood1">wood</label>
+            <br>
+            <input id = 'bone1' type="radio" name="a" value="bone">
+            <label for="bone1">bone</label>
+          </form>
+
+          <h2 class = 'reset-btn'>START</h2>
+        </div>
+      </div>
+	  
+    </div><!-- center-field -->
+  </div><!-- end-field -->
+</div><!-- field -->
+
+
+<div class="info1"></div>
+<div class="firm"><span>Game development by</span> <a href="#" target="_blank">101 XP&nbsp;</a></div>
+
+<script type="text/javascript" src = 'lib/three.min.js'></script>
+<!-- <script type="text/javascript" src = 'lib/threex.dynamictexture.js'></script> -->
+<script type="text/javascript" src = 'lib/stats.min.js'></script>
+<!-- <script type="text/javascript" src = 'lib/OrbitControls.js'></script> -->
+<script type="text/javascript" src = 'lib/jquery.min.js'></script>
+<script type="text/javascript" src = 'word_rus.js'></script>
+<script type="text/javascript" src = 'script.js'></script>
+
+</body>
+</html>
